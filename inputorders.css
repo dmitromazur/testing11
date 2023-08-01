@@ -1,0 +1,78 @@
+.orderscon{
+    max-width: 100%;
+    padding-top: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    background-color: rgba(113, 179, 237, 0.359);
+    height: 430px;
+    width: 400px;
+    margin-top: 100px;
+}
+
+
+@media(max-width:768px){
+    .orderscon{
+        width: 100%;
+    }
+}
+
+body{
+    background-image: radial-gradient(circle at 93.08% 50%, #0073ce 0, #0072d9 5.56%, #0070e2 11.11%, #006de8 16.67%, #0069eb 22.22%, #0064ec 27.78%, #005eea 33.33%, #0056e5 38.89%, #004dde 44.44%, #4d42d4 50%, #7234c8 55.56%, #8c21bb 61.11%, #a000ac 66.67%, #af009b 72.22%, #bb008a 77.78%, #c40078 83.33%, #ca0067 88.89%, #cd0055 94.44%, #ce0043 100%);
+}
+
+.orderscon label{
+    font-size: 19px;
+    font-weight: bold;
+
+    @media (max-width:768px) {
+        font-size: 15px;
+    }
+}
+
+.orderscon p{
+    margin-left: 9px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.orderscon input{
+    width: 300px;
+    background-color: rgba(250, 250, 250, 0.492);
+    border: 0px;
+    border-radius: 10px;
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+
+
+
+.orderscon input[type="radio"]{
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.buttonpay{
+    transition: transform 0.60s;
+    background-color: #0058e54a;
+    box-shadow: 0 2px 9px rgba(0,0,0,0.2), 0 9px 20px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    font-size: 22px;
+    margin-top: 20px;
+    height: 40px;
+    width: 240px;
+    border: 0px;
+}
+.buttonpay:hover{
+    transform: scale(1.1);
+    background-image: radial-gradient(circle at 50% -20.71%, #fff358 0, #fff64c 7.14%, #fff841 14.29%, #fbf939 21.43%, #e0f934 28.57%, #c2f832 35.71%, #a1f535 42.86%, #79f23c 50%, #3fee46 57.14%, #00ea54 64.29%, #00e663 71.43%, #00e375 78.57%, #00df88 85.71%, #00dc9c 92.86%, #00d9b1 100%);
+}
+
+
+.postinput{
+    margin-left: 30px;
+    clear:both;
+    text-align:left;
+}
