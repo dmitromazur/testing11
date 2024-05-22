@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link href="styles.css" rel="stylesheet"/>
+    <title>Курси</title>
+</head>
+<body>
+    <div class="header_big">
+        <h1>MaisterniaEcoSmakolukiv</h1>
+        <a>Про мене</a>
+        <a>Курси</a>
+        <a>FAQ</a>
+        <a>Відгуки</a>
+    </div>
+    <div class="header_small">
+        <h1>MaisterniaEcoSmakolukiv</h1>
+        <img src="source/mobile_menu.png" onclick="show()"> 
+    </div>
+
+    <div id="header_small_mobile">
+        <img src="source/close.png" id="mobile_close" onclick="hide()">
+        <h1>Maistermia</h1>
+        <a>Про мене</a><br>
+        <a>Курси</a><br>
+        <a>FAQ</a><br>
+        <a>Відгуки</a><br>
+        <button class="header_small_mobile_buy">КУПИТИ</button>
+        <div class="logo-container">
+            <img src="/source/instagram_logo.png" class="mobile_logo">
+            <img src="source/facebook_logo.png" class="mobile_logo">
+            <img>
+        </div>
+    </div>
+    <hr size=2px width=100% align="left" color="red">
+
+    <div class="personal">
+    <h1 class="personal_h1">Про мене</h1>
+    <p class="personal_p">Nunc et quam a metus dapibus convallis sit amet dignissim odio. Duis accumsan nulla et cursus dignissim. Praesent facilisis sapien non fermentum dignissim. Quisque mollis neque vel justo laoreet, eu auctor est consequat. Donec non ullamcorper lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed tincidunt lacus nulla, vitae euismod lorem luctus vel. Phasellus eu augue in sem ultricies porta. Cras in ipsum dictum, interdum felis eget, efficitur purus. Nulla euismod lorem feugiat mollis finibus. Praesent arcu ligula, rutrum vel tincidunt in, egestas sed dui. Ut a sodales risus.
+        Aliquam egestas sit amet purus eu luctus. Aenean quis nibh at magna tincidunt luctus sagittis quis risus. In hac habitasse platea dictumst. Cras odio eros, ornare eu dignissim in, elementum et ipsum. Fusce rhoncus sollicitudin leo, eu efficitur diam viverra pretium. Etiam dignissim nisi nec venenatis ultrices. Nunc dictum ligula vel vulputate viverra. Cras vel molestie nisl. Nullam lacus risus, luctus sit amet dui quis, convallis sagittis eros.
+    </p>
+    </div>
+
+    <div class="category">
+        <div class="category_block">
+            <img src="/source/category_pastila.jpg" class="category_img">
+            <div class="category_text_top">Пастила</div>
+            <div class="category_text_bottom">Aliquam egestas sit amet purus eu luctus. Aenean quis nibh at magna tincidunt luctus sagittis quis risus. In hac habitasse platea dictumst. Cras odio eros, ornare eu dignissim in, elementum et ipsum</div>
+        </div>
+        
+        <div class="category_block">
+            <img src="/source/category_misyo.jpg" class="category_img">
+            <div class="category_text_top">Джерки</div>
+            <div class="category_text_bottom">Aliquam egestas sit amet purus eu luctus. Aenean quis nibh at magna tincidunt luctus sagittis quis risus. In hac habitasse platea dictumst. Cras odio eros, ornare eu dignissim in, elementum et ipsum</div>
+        </div>
+        
+        <div class="category_block">
+            <img src="/source/category_mk.jpg" class="category_img">
+            <div class="category_text_top">Окремі МК</div>
+            <div class="category_text_bottom">Aliquam egestas sit amet purus eu luctus. Aenean quis nibh at magna tincidunt luctus sagittis quis risus. In hac habitasse platea dictumst. Cras odio eros, ornare eu dignissim in, elementum et ipsum</div>
+        </div>
+    </div>
+
+    
+<div class="container">
+    <div class="section">
+        <div class="percent" id="count1">0%</div>
+        <p>Ви отримаєте унікальні навички, що дозволяють створювати справжні шедеври, що здивують вашу родину та друзів!</p>
+    </div>
+    <div class="section">
+        <div class="percent" id="count2">0%</div>
+        <p>Вам не потрібно буде переживати за здоров'я ваших діток, бо ізомальт – це натуральний замінник цукру, який не викликає карієсу.</p>
+    </div>
+    <div class="section">
+        <div class="percent" id="count3">0%</div>
+        <p>Це низькокалорійний, гіпоалергенний продукт, який підходить діабетикам та людям що слідкують за вагою, спортсменам.</p>
+    </div>
+</div>
+
+<div class="faq-container">
+    <h2>Найчастіші запитання</h2>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleDisplay('answer1')">Запитання 1</button>
+        <div class="faq-answer" id="answer1">
+            <p>Відповідь на запитання 1.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleDisplay('answer2')">Запитання 2</button>
+        <div class="faq-answer" id="answer2">
+            <p>Відповідь на запитання 2.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleDisplay('answer3')">Запитання 3</button>
+        <div class="faq-answer" id="answer3">
+            <p>Відповідь на запитання 3.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleDisplay('answer4')">Запитання 4</button>
+        <div class="faq-answer" id="answer4">
+            <p>Відповідь на запитання 4.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleDisplay('answer5')">Запитання 5</button>
+        <div class="faq-answer" id="answer5">
+            <p>Відповідь на запитання 5.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleDisplay('answer6')">Запитання 6</button>
+        <div class="faq-answer" id="answer6">
+            <p>Відповідь на запитання 6.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleDisplay('answer7')">Запитання 7</button>
+        <div class="faq-answer" id="answer7">
+            <p>Відповідь на запитання 7.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleDisplay('answer8')">Запитання 8</button>
+        <div class="faq-answer" id="answer8">
+            <p>Відповідь на запитання 8.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleDisplay('answer9')">Запитання 9</button>
+        <div class="faq-answer" id="answer9">
+            <p>Відповідь на запитання 9.</p>
+        </div>
+    </div>
+    <div class="faq-item">
+        <button class="faq-question" onclick="toggleDisplay('answer10')">Запитання 10</button>
+        <div class="faq-answer" id="answer10">
+            <p>Відповідь на запитання 10.</p>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="container_cursu">
+        <div class="cursu">
+            <h1 class="cursu_h1">М'ясні снеки<br>LITE</h1>
+            <img src="/source/mysyo.jpg"><br>
+            <button class="button_cursu" onclick="toggleDisplay('misya_lite')">Детальніше<img src="/source/strel_v.png"></button>
+              <div id="misya_lite">
+                <ol>
+                    <li>Загальні відомості про сушене м'ясо</li>
+                    <li>Рекомендації до приготування мʼяса перед сушінням</li>
+                    <li>ОБЕРЕЖНО - "ПАРАЗИТИ"
+                        Як уберегти продукт від розвитку патогенних мікроорганізмів у мʼясі</li>
+                    <li>Які види мяса підходять для сушіння?<br>
+                    <li>КУРКА</li>
+                        -Особливості роботи з курячих мʼясом<br>
+                        -Курячі джерки <br>
+                        -Відео-рецепти<br>
+                        -ТЕХ.КАРТА<br>
+                    <li>СВИНИНА</li>
+                        -Особливості роботи із свининою<br>
+                        -Джерки із свинини<br>
+                        -Відео-рецепти<br>
+                        -ТЕХ. КАРТА<br>
+                    <li>ТЕЛЯТИНА</li>
+                        -Особливості роботи з телятиною<br>
+                        -Джерки із телятини<br>
+                        -Відео-рецепти<br>
+                        -ТЕХ.КАРТА<br>
+                    </li>
+                    <li>Правила зберігання мʼясних снеків</li>
+                    <li>БЕЗ ЗВОРОТНЬОГО ЗВЯЗКА</li>
+                    </ol>
+              </div>
+              <h1 class="price" style="color: rgb(36, 150, 119);">690UAH</h1>
+              <center><a href="https://www.liqpay.ua/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXkiLCJhbW91bnQiOiI2OTAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0JzRltC5INGC0L7QstCw0YAiLCJwdWJsaWNfa2V5Ijoic2FuZGJveF9pOTE0MzQwOTUxOSIsImxhbmd1YWdlIjoidWsiLCJyZXN1bHRfdXJsIjoiaHR0cHM6Ly90Lm1lL0RtaXRyaWpXQiJ9&signature=5kgLaqTO6CK/ZTk6Gxu8I30kK7s="><button class="buy_button">ПРИДБАТИ</button></a></center>
+        </div>
+        <div class="cursu">
+            <h1 class="cursu_h1">М'ясні снеки<br>VIP</h1>
+            <img src="/source/mysyo.jpg"><br>
+            <button class="button_cursu" onclick="toggleDisplay('misya_vip')">Детальніше<img src="/source/strel_v.png"></button>
+            <div id="misya_vip">
+                <ol>
+                    <li>Загальні відомості про сушене мʼясо.</li>
+                    <li>Рекомендації до приготування мʼяса перед сушінням</li>
+                    <li>Обережно - "паразити"<br>
+                    як уберегти продукт від розвитку патогенних мікроорганізмів</li>
+                    <li>Які види мяса підходять для сушіння?</li>
+                    <li>Курка<br>
+                        -особливості роботи з курячих мʼясом<br>
+                        -курячі джерки <br>
+                        -відео-рецепти<br>
+                        -тех.карта</li>
+                    <li>Свинина<br>
+                        -особливості роботи із свининою<br>
+                        -відео-рецепти<br>
+                        -тех. карта</li>
+                    <li>Телятина<br>
+                        -особливості роботи з телятиною<br>
+                        -джерки із телятини<br>
+                        -відео-рецепти<br>
+                        -тех.карта</li>
+                    <li>Кабаноси<br>
+                        -особливості приготування<br>
+                        -кабаноси <br>
+                        -відео-рецепти<br>
+                        -тех.карта</li>
+                    <li>Куряча соломка <br>
+                        -особливості приготування<br>
+                        -відео-рецепти<br>
+                        -тех.карта</li>
+                    <li>Баструма з курки<br>
+                        -особливості приготування<br>
+                        -відео-рецепти<br>
+                        -тех.карта</li>
+                    <li>Мʼясна пастила <br>
+                        -особливості приготування<br>
+                        -відео-рецепти<br>
+                        -тех.карта</li>
+                    <li>Сушене мʼясо для швидких супів чи соусів<br>
+                        -особливості приготування мʼяса для подальшого додавання у страви.<br>
+                        -відео-рецепти<br>
+                        -тех.карта</li>
+                    <li>Мʼясні чіпси<br>
+                        -особливості приготування<br>
+                        -відео-рецепти<br>
+                        -тех.карта</li>
+                    <li>Універсальні рецепти маринадів ( 5 рецептів)</li>
+                    <li>Особливості зберігання мʼясних снеків</li>
+                    <li>Доступ до закритої телеграм-групи для спілкування з однодумцями</li>
+                    <li>МІЙ ЗВОРОТНІЙ ЗВЯЗОК</li>
+                </ol>
+            </div>
+            <h1 class="price" style="color: rgb(36, 150, 119);">1290UAH</h1>
+            <center><a href="https://www.liqpay.ua/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXkiLCJhbW91bnQiOiIxMjkwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCc0ZbQuSDRgtC+0LLQsNGAIiwicHVibGljX2tleSI6InNhbmRib3hfaTkxNDM0MDk1MTkiLCJsYW5ndWFnZSI6InVrIiwicmVzdWx0X3VybCI6Imh0dHBzOi8vdC5tZS9EbWl0cmlqV0IifQ==&signature=sDnDVgguM8Lkta/QtAzf3Do2oLw="><button class="buy_button">ПРИДБАТИ</button></a></center>
+        </div>
+        <div class="cursu">
+            <h1 class="cursu_h1">Пастила з 0</h1> 
+            <img src="/source/mysyo.jpg"><br>
+            <button class="button_cursu" onclick="toggleDisplay('pastula_z_nyla')">Детальніше<img src="/source/strel_v.png"></button>
+            <div id="pastula_z_nyla">
+                <ol>
+                    <li>Що таке пастила, види пастили</li>
+                    <li>Обладнання для приготування пастили</li>
+                    <li>Як обрати дегідратор</li>
+                    <li>Як обрати правильну сировину для пастили</li>
+                    <li>Яблоко-основа для пастили</li>
+                    <li>Як обирати сорти яблук</li>
+                    <li>Правила поєднання смаків</li>
+                    <li>Відео-рецепти приготування</li>
+                    <li>Умови зберігання та терміни зберігання пастили</li>
+                    <li>Книга рецетів</li>
+                    <li>Таблиця Excell з точною грамовністю з різними дегідраторами</li>
+                    <li>Рекомендації  по температурі сушіння та ваги пюре до різних сушарок</li>
+                </ol>
+            </div>
+            <h1 class="price" style="color: rgb(36, 150, 119);">1290UAH</h1>
+            <center><a href="https://www.liqpay.ua/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXkiLCJhbW91bnQiOiI2OTAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0JzRltC5INGC0L7QstCw0YAiLCJwdWJsaWNfa2V5Ijoic2FuZGJveF9pOTE0MzQwOTUxOSIsImxhbmd1YWdlIjoidWsiLCJyZXN1bHRfdXJsIjoiaHR0cHM6Ly90Lm1lL0RtaXRyaWpXQiJ9&signature=5kgLaqTO6CK/ZTk6Gxu8I30kK7s="><button class="buy_button">ПРИДБАТИ</button></a></center>
+        </div>
+    </div>
+
+</body>
+</html>
